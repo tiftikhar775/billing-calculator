@@ -11,25 +11,24 @@
     <div id="calculator-section">
         <h2 id="title">Billing Calculator</h2>
 
-        <form id="calculator-items">
-            <label for="hr-rate">Hourly Rate:</label>
-            <input type="text" name="hr-rate" id="hr-rate">
-    
-            <br><br>
-    
-            <label for="numHrs"># of Hours:</label>
-            <input type="text" name="numHrs" id="numHrs">
-    
-            <br><br>
-    
-            <button>Calculate</button>
-            <button>Clear</button>
-    
-            <br><br>
-    
-            <label for="bill">Bill:</label>
-            <input type="text" name="bill" id="bill" readonly>
-        </form>
+        <label for="hr-rate">Hourly Rate: </label>
+        <input type="text" name="hr-rate" id="hr-rate">
+
+        <br><br>
+
+        <label for="numHrs"># of Hours:</label>
+        <input type="text" name="numHrs" id="numHrs">
+
+        <br><br>
+
+        <button id="calc-btn" onclick="calculate()">Calculate</button>
+        <button id="clear-btn" onclick="clearFields()">Clear</button>
+
+        <br><br>
+
+        <label for="bill">Bill:</label>
+        <input type="text" name="bill" id="bill" readonly>
+
 
 
     </div>
