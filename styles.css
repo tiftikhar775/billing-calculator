@@ -1,0 +1,16 @@
+body {
+    background-color: #e6e1e0;
+    font-family: monospace;
+}
+
+#calculator-section {
+    background-color: #fff;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+}
+
+#title {
+    font-size: 2.5vh;
+}
