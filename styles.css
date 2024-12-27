@@ -18,11 +18,3 @@ body {
     font-size: 2.5vh;
 }
 
-#calculator-items {
-    font-size: 1.5vh;
-}
-
-#calculator-items button {
-    font-size: large;
-    border-radius: 10px;
-}
