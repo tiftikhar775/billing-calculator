@@ -4,13 +4,25 @@ body {
 }
 
 #calculator-section {
+    margin-top: 15%;
     background-color: #fff;
-    max-width: fit-content;
     margin-left: auto;
     margin-right: auto;
     border-radius: 25px;
+    text-align: center;
+    width: 800px;
+    height: 250px;
 }
 
 #title {
     font-size: 2.5vh;
+}
+
+#calculator-items {
+    font-size: 1.5vh;
+}
+
+#calculator-items button {
+    font-size: large;
+    border-radius: 10px;
 }
